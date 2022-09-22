@@ -1,0 +1,168 @@
+/* first title in the webpage */
+h1.title {
+  font-style: normal;
+  color: black;
+}
+
+/* button style and color using in My picture button */
+button.picture{
+  background-color: #F0CBD3;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in Other puppy picture button */
+button.other{
+  background-color: #D7D6F3;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in About me button */
+button.intro{
+  background-color: #F9CDFF;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in My video button */
+button.video{
+  background-color: #F1D5C5;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in Music I like button */
+button.music{
+  background-color: #D1F2F8;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in credit button */
+button.credit{
+  background-color: #DBF5D1;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in more pictures button */
+button.more{
+  background-color: #D1F5EE;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* button style and color using in other project button */
+button.project{
+  background-color: #EBEBEB;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* title style use in the picture title */
+h2.picture{
+  font-style: normal;
+  color: #B43C55;
+}
+
+/* title style and color use in the "other puppy picture" title */
+h3.otherPicture{
+  font-style: normal;
+  color: #4D49D2;
+}
+
+/* title tag and style using in "A little about me" */
+h2.intro{
+  font-style: normal;
+  color: #AC30BD;
+}
+
+/* title tag and style using in "Let my show you my toy..." */
+h3.toy{
+  font-style: normal;
+  color: #AC30BD;
+}
+
+/* title tag and style using in "This is the one I want to show you...<" */
+h3.bikitoy{
+   font-style: normal;
+  color: #AC30BD;
+}
+
+/* title tag and style using in "My video" */
+h2.video{
+  font-style: normal;
+  color:#BF561D;
+}
+
+/* title tag and style using in "Bichon Frise - Top 10 Facts" */
+h3.otherVideo{
+  font-style: normal;
+  color:#BF561D;
+}
+
+/* title tag and style using in "Music I like!" */
+h2.music{
+  font-style: normal;
+  color:#18ADCA;
+}
+
+/* title tag and style using in "Thank you for coming!" */
+h2.png{
+  font-style: normal;
+  color:#B56262;
+}
+
+/* title tag and style using in "Credit/Attribution" */
+h2.credit{
+  font-style: normal;
+  color: #339011;
+}
+
+/* body tag through whole webpage */
+body {
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+}
+
+/* using in first and second picture of the webpage; use with link to enlarge the picture */
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 225px;
+  height:195px;
+}
+
+/* using in first and second picture of the webpage; use with link to enlarge the picture */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* img tag and style using in "A little about me" picture */
+img.toy{
+  float:left;
+  margin: 5px;
+}
+
+/* p tag and style using in "A little about me" paragraph */
+p.toy{
+  text-align: justify;
+  front-size: 30px;
+}
+
+/* using in first and second picture of the webpage; use with link to enlarge the picture */
+img.toymap{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 340px;
+  height:600px;
+}
+
+/* using in the gif photo to change the size */
+img.toygif{
+  width: 340px;
+  height:300px;
+}
