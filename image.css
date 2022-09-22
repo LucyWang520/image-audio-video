@@ -1,0 +1,31 @@
+/* button use in "image.html"; let user can go back to main page */
+button.goback{
+  background-color: #D5F7FF;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+button.goto{
+  background-color: #FFB8B8;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* Paragraph style and color */
+p{
+  font-style: "Times New Roman", Times, serif;
+  color:#EE2222;
+}
+
+/* title color and style use in "Actually..." in toy.html */
+h1{
+  font-style: normal;
+  color:#567C22;
+}
+
+/* button use in "toy.html"; let user can go back to main page */
+button.goback1{
+  background-color: #DCFAEB;
+  font-size: 14px;
+  border-radius: 12px;
+}

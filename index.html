@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!--  Main html file for most pictures, video and audio    -->
+    <title>Media: image, audio and video</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+   
+    <!-- this is the start of content for page -->
+    <h1 class="title">All about puppies!</h1>
+    
+    <!--  button to clivk to different topic/title    -->
+    <button class="picture"><a href="#picture">My picture!</a></button>
+    <button class="other"><a href="#other">Other puppy pictures!</a></button>
+    <button class="intro"><a href="#intro">About me!</a></button>
+    <button class="video"><a href="#video">My video!</a></button>
+    <button class="music"><a href="#music">Music I like!</a></button>
+    <button class="credit"><a href="#credit">Credit!</a></button>
+    <button class="more"><a href="moreImage.html">More pictures!</a></button>
+    <button class="project"><a href="https://link-to-somewhere.glitch.me">My other projects!</a></button>
+    
+    <!--   First picture of the webpage: Hello there!Friends!  -->
+    <span id="picture">
+    <h2 class="picture">Hello there! Friends!</h2>
+    <p>Click image to enlarge my picture!</p>
+    <a target="_blank" href="image.html">
+      <img
+        src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2F32ADFBBA-5BD4-4CB2-8E8B-D0C477FB5F23_1_105_c.jpeg?v=1619469347649"
+        class="puppy"
+        alt="puppy" 
+        width="440" 
+        height="390"
+    />
+    </a>
+    </span>
+    
+  <!--   second picture of the webpage: Other puppy picture   -->
+    <span id="other">
+    <h3 class="otherPicture">Other puppy picture!</h3>
+    <p>Click image to enlarge picture!</p>
+    <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bichon_frise.JPG/2048px-Bichon_frise.JPG">
+      <img
+        src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2FBichon_frise.JPG?v=1619475395711"
+        class="puppy"
+        alt="puppy" 
+        width="440" 
+        height="390"
+           />
+    </a>
+    <figcaption>Fig.1 - Bichon frise dog.</figcaption>
+    </span>
+    
+    <!--   Third picture of the webpage: A little about me!   -->
+    <span id="intro">
+    <h2 class="intro">A little about me!</h2>
+    <img class="toy" src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2F9795383A-BD3F-4DA4-876A-5CB1786D1EE8_1_105_c.jpeg?v=1619470767772" alt="toy" >
+      <p class="toy">As you can see, I like to play a lot. <br>
+        I want to play with my buddy everyday.<br>
+        When I wake up in the morning, the very first thing is to go potty.<br>
+        I am doing very well everyday!<br>
+        After that, I have my little breakfast and ready to start my day.<br>
+        This picture is all about my toy I play everyday!<br>
+        I think it will be nice to introduce my toys to you.
+      </p><br><br><br><br>
+      <!--   gif image; in "Let me show you my toy..."    -->
+      <h3 class="toy">Let me show you my toy...</h3>
+      <p>Give me a sec... I almost got it...</p>
+      <img class="toygif" src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2FImage.gif?v=1619629379818" alt="gif" >
+
+      
+      <!--    Using image map in "Click my toy, I will show you..."    -->
+      <h3 class="bikitoy">This is the one I want to show you...</h3>
+      <p>Click my turtle toy, I will give you this one to play.</p>
+
+      <img class="toymap" src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2FE9A098D8-B4B5-48AE-82AA-FF997E0585E7_1_105_c.jpeg?v=1619640612818" alt="Biki Toy" usemap="#bikitoy">
+    <!--  Using map to get the shape to click on the photo    -->
+    <map name="bikitoy">
+      <area shape="rect" coords="29,600,222,410" alt="toy" href="toy.html">
+    </map>
+    </span>
+      
+    
+    <!--  first video of the webpage: My video!    -->
+    <span id="video">
+    <h2 class="video">My video!</h2>
+      <p> My sister and I are checking flowers!</p> 
+        <video width="420" height="740" controls>
+      <source src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2FIMG_2579.mp4?v=1619477533823" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+      <!--   second video of the webpage: Bichon Frise - Top 10 Facts     -->
+      <h3 class="otherVideo">Bichon Frise - Top 10 Facts</h3>
+      <p> More about Bichon Frise.</p> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NSBknj4NXqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figcaption>Video.1 - Bichon Frise - Top 10 Facts.</figcaption>
+      
+    </span>
+  
+    <!--  First music of the webpage: Music I like!    -->
+    <span id="music">
+    <h2 class="music">Music I like!</h2>
+      <p></p>
+        <audio controls>
+          <source src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2FAdagio-Thema2.mid.mp3?v=1619481269558" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <figcaption>Audio.1 - Adagio-Thema2.mid.</figcaption>
+        
+    </span>
+    
+    <h2 class="png">Thank you for coming!</h2>
+    <p>I am a .png image.</p>
+    <img class="png" src="https://cdn.glitch.com/a7131a3c-3a93-4f38-bf73-446e105b90be%2F580b585b2edbce24c47b24c6.png?v=1620069433376" style="width:320px;height:250px;">
+    
+    
+    <!--   Credit and Attribution area  -->
+    <span id="credit">
+    <h2 class="credit">Credit/Attribution</h2>
+      <p>Fig.1: Bichon frise dog. Date: 10 June 2007. Author: Arielote. Source: Own work. Licensed: <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a></p>
+      <p>Video.1 - Bichon Frise - Top 10 Facts. Aythor: Dogs Wiz. Date: Aug 25, 2020. <a target="_blank" href="https://youtu.be/NSBknj4NXqU">Bichon Frise - Top 10 Facts</a> on <a target="_blank" href="https://www.youtube.com">Youtube</a></p>
+      <p>Audio.1 - Adagio-Thema2.mid. Date: 03 May 2007. Author: Beethoven, Played by --Boris Fernbacher. Source: Deutsch: Beethoven, Played by --Boris Fernbacher Licensed: <a target="_blank" href="https://creativecommons.org/publicdomain/mark/1.0/">CC-PD</a></p>
+    </span>
+    
+  </body>
+</html>
